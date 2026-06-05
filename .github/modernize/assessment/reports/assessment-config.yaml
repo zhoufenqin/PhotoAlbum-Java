@@ -1,0 +1,15 @@
+analysisCoverage: issue-only
+java:
+  assessmentDomains:
+  - cloud-readiness
+  targetComputeServices:
+  - azure-aks
+  targetOS:
+  - linux
+  - windows
+  minimumCveSeverity: high
+dotnet:
+  assessmentDomains:
+  - cloud-readiness
+  targetComputeServices:
+  - Any
